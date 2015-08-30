@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1145,30 +1145,30 @@ High-power, low thermal resistance package.</description>
 <wire x1="2.1" y1="2.1" x2="2.1" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="2.1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.127" layer="21"/>
-<smd name="1" x="-1.25" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="2" x="-0.75" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="3" x="-0.25" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="4" x="0.25" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="5" x="0.75" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="6" x="1.25" y="-1.725" dx="0.4" dy="0.21" layer="1" rot="R90"/>
-<smd name="7" x="1.725" y="-1.25" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="8" x="1.725" y="-0.75" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="9" x="1.725" y="-0.25" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="10" x="1.725" y="0.25" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="11" x="1.725" y="0.75" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="12" x="1.725" y="1.25" dx="0.4" dy="0.21" layer="1" rot="R180"/>
-<smd name="13" x="1.25" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="14" x="0.75" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="15" x="0.25" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="16" x="-0.25" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="17" x="-0.75" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="18" x="-1.25" y="1.725" dx="0.4" dy="0.21" layer="1" rot="R270"/>
-<smd name="19" x="-1.725" y="1.25" dx="0.4" dy="0.21" layer="1"/>
-<smd name="20" x="-1.725" y="0.75" dx="0.4" dy="0.21" layer="1"/>
-<smd name="21" x="-1.725" y="0.25" dx="0.4" dy="0.21" layer="1"/>
-<smd name="22" x="-1.725" y="-0.25" dx="0.4" dy="0.21" layer="1"/>
-<smd name="23" x="-1.725" y="-0.75" dx="0.4" dy="0.21" layer="1"/>
-<smd name="24" x="-1.725" y="-1.25" dx="0.4" dy="0.21" layer="1"/>
+<smd name="1" x="-1.25" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="2" x="-0.75" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="3" x="-0.25" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="4" x="0.25" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="5" x="0.75" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="6" x="1.25" y="-1.825" dx="0.6" dy="0.21" layer="1" rot="R90"/>
+<smd name="7" x="1.825" y="-1.25" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="8" x="1.825" y="-0.75" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="9" x="1.825" y="-0.25" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="10" x="1.825" y="0.25" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="11" x="1.825" y="0.75" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="12" x="1.825" y="1.25" dx="0.6" dy="0.21" layer="1" rot="R180"/>
+<smd name="13" x="1.25" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="14" x="0.75" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="15" x="0.25" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="16" x="-0.25" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="17" x="-0.75" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="18" x="-1.25" y="1.825" dx="0.6" dy="0.21" layer="1" rot="R270"/>
+<smd name="19" x="-1.825" y="1.25" dx="0.6" dy="0.21" layer="1"/>
+<smd name="20" x="-1.825" y="0.75" dx="0.6" dy="0.21" layer="1"/>
+<smd name="21" x="-1.825" y="0.25" dx="0.6" dy="0.21" layer="1"/>
+<smd name="22" x="-1.825" y="-0.25" dx="0.6" dy="0.21" layer="1"/>
+<smd name="23" x="-1.825" y="-0.75" dx="0.6" dy="0.21" layer="1"/>
+<smd name="24" x="-1.825" y="-1.25" dx="0.6" dy="0.21" layer="1"/>
 <text x="-2" y="2.3" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2" y="-2.7" size="0.4064" layer="27" ratio="12">&gt;VALUE</text>
 </package>
@@ -2862,7 +2862,7 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <pad name="S2" x="6.02" y="0" drill="2.3" diameter="2.9"/>
 <text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="0" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.435" x2="5.08" y2="-3.435" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
