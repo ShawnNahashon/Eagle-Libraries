@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2862,7 +2862,7 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <pad name="S2" x="6.02" y="0" drill="2.3" diameter="2.9"/>
 <text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="0" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.435" x2="5.08" y2="-3.435" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

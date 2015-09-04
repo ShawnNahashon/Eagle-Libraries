@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2851,8 +2851,6 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 </package>
 <package name="PN61729-S">
 <description>&lt;b&gt;USB connector&lt;/b&gt; with shield&lt;p&gt;</description>
-<wire x1="-5.9" y1="5.6" x2="-5.9" y2="-10.15" width="0.254" layer="51"/>
-<wire x1="5.9" y1="-10.15" x2="5.9" y2="5.6" width="0.254" layer="51"/>
 <wire x1="5.9" y1="5.6" x2="-5.9" y2="5.6" width="0.254" layer="21"/>
 <wire x1="5.9" y1="1.915" x2="5.9" y2="5.6" width="0.254" layer="21"/>
 <wire x1="-5.9" y1="5.6" x2="-5.9" y2="1.915" width="0.254" layer="21"/>
@@ -2864,6 +2862,7 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <pad name="S2" x="6.02" y="0" drill="2.3" diameter="2.9"/>
 <text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="0" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
